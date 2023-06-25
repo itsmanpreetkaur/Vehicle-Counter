@@ -1,0 +1,46 @@
+Uses cases:
+1. Traffic Management and Planning
+2. Parking management system
+3. Traffic Control
+
+Computer vision is a branch of artificial intelligence that allows computer systems to imitate human vision. Computer vision has helped in automating the process of data collection and processing, making it a valuable asset in practically any industry
+
+Three components of the vehicle counter:
+1.Detector - detect the vehicle and gives the bounding box around the vehicle
+2. Counter - count the  vehicles
+
+
+
+
+Helps traffic police: 
+A vehicle detection and counting system could be beneficial for the traffic police because everything they can monitor from one place only likes how many vehicles have crossed this toll and which vehicle.
+
+Maintaining records:
+ It is challenging for some individuals to record all the vehicles with them because the cars are passing by in real-time. It’s not like that one is watching the video, and they can pause it and have a note of it, so to remove this limitation, this application can be very well-versed to attain the time-saving quality and be automated.
+
+Traffic surveillance control:
+ As this application can be planted anywhere as it only requires a camera or some wires (for establishing the connectivity with the central system) hence if the traffic is high at someplace, then from that area, an officer can monitor it and forward the information to next toll officer so that they could be prepared beforehand.
+
+
+
+What is background subtraction in video processing?
+Background subtraction is a common technique in the image processing and computer vision. It means that the foreground of the image is extracted for further processing. Generally a region of interest (ROI) of the image can be several objects like humans, cars, texts, and so on in the foreground.
+ Grayscaling is the process of converting an image from other color spaces e.g. RGB, CMYK, HSV, etc. to shades of gray. It varies between complete black and complete white.
+
+Importance of grayscaling ::
+
+Dimension reduction: 
+For example, In RGB images there are three color channels and three dimensions while grayscale images are single-dimensional.
+
+Reduces model complexity: 
+Consider training neural articles on RGB images of 10x10x3 pixels. The input layer will have 300 input nodes. On the other hand, the same neural network will need only 100 input nodes for grayscale images.
+
+For other algorithms to work:
+ Many algorithms are customized to work only on grayscale images e.g. Canny edge detection function pre-implemented in the OpenCV library works on Grayscale images only.
+
+ Next, we will apply GaussianBlur to remove the noise from the image. Gaussian blur is one of the techniques of image processing. It is widely used in graphics designing too for reducing the noise and smoothing the image so that for further preprocessing, it will generate better output. Along with reducing the noise in the image Gaussian blur technique also reduces the image’s details. Here for applying this preprocessing technique, we will be using the GaussianBlur function().
+
+
+ Here we will dilate the image.
+  Dilation is one of the morphological techniques where we try to fill the pixels with the element, also known as kernels (structured pieces), to fill the missing parts of the images whenever needed.
+ Dilation is a morphological operation used to enhance the features of an image
